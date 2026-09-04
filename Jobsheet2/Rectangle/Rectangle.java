@@ -1,19 +1,19 @@
 package Rectangle;
 
 public class Rectangle {
-    int width, height;
+    public int width, height;
     
     public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
     }
-    
-    int area(){
+
+    public int area(){
         return width*height;
     }
 
 
-    int perimeter(){
+    public int perimeter(){
         return 2 * (width+height);
     }
 
