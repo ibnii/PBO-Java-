@@ -29,7 +29,7 @@ public class Processor {
     }
     
     public void info(){
-        System.out.printf("Merk Processor\t: %s/n", merk);
+        System.out.printf("Merk Processor\t: %s\n", merk);
         System.out.printf("Cache Memory = %.2f\n", cache);
     }
     
