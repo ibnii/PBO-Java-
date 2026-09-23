@@ -1,4 +1,4 @@
-package Jobsheet4.KeretaApi;
+package KeretaApi;
 
 public class MainPercobaan3 {
     public static void main(String[] args) {

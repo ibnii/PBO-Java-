@@ -1,4 +1,4 @@
-package Jobsheet4.MobilMesin;
+package MobilMesin;
 
 public class Mobil {
     private String merek;

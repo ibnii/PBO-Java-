@@ -1,4 +1,4 @@
-package Jobsheet4.LaptopProcessor;
+package LaptopProcessor;
 
 public class Laptop {
     private String merk;

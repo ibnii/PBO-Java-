@@ -1,4 +1,4 @@
-package Jobsheet4.MobilMesin;
+package MobilMesin;
 
 public class MainPercobaan5 {
     public static void main(String[] args) {

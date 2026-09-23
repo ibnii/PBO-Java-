@@ -1,4 +1,4 @@
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class Gerbong {
     private String kode;

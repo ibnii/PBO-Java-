@@ -40,7 +40,7 @@ Mengimplementasikan relasi Aggregation satu-ke-satu antara kelas `Laptop` (*whol
 ### 2. Kode Program
 - **`Processor.java`**
 ```java
-package Jobsheet4.LaptopProcessor;
+package LaptopProcessor;
 
 public class Processor {
     private String merk;
@@ -79,7 +79,7 @@ public class Processor {
 
 - **`Laptop.java`**
 ```java
-package Jobsheet4.LaptopProcessor;
+package LaptopProcessor;
 
 public class Laptop {
     private String merk;
@@ -118,7 +118,7 @@ public class Laptop {
 
 - **`MainPercobaan1.java`**
 ```java
-package Jobsheet4.LaptopProcessor;
+package LaptopProcessor;
 
 public class MainPercobaan1 {
     public static void main(String[] args) {
@@ -211,7 +211,7 @@ Mengimplementasikan relasi Aggregation ganda, di mana kelas `Pelanggan` (*whole*
 ### 2. Kode Program
 - **`Mobil.java`**
 ```java
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class Mobil {
     private String merk;
@@ -244,7 +244,7 @@ public class Mobil {
 
 - **`Sopir.java`**
 ```java
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class Sopir {
     private String nama;
@@ -277,7 +277,7 @@ public class Sopir {
 
 - **`Pelanggan.java`**
 ```java
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class Pelanggan {
     private String nama;
@@ -328,7 +328,7 @@ public class Pelanggan {
 
 - **`MainPercobaan2.java`**
 ```java
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class MainPercobaan2 {
     public static void main(String[] args) {
@@ -408,7 +408,7 @@ Mengimplementasikan relasi Aggregation di mana kelas `KeretaApi` memiliki dua at
 ### 2. Kode Program
 - **`Pegawai.java`**
 ```java
-package Jobsheet4.KeretaApi;
+package KeretaApi;
 
 public class Pegawai {
     private String nip;
@@ -446,7 +446,7 @@ public class Pegawai {
 
 - **`KeretaApi.java`**
 ```java
-package Jobsheet4.KeretaApi;
+package KeretaApi;
 
 public class KeretaApi {
     private String nama;
@@ -514,7 +514,7 @@ public class KeretaApi {
 
 - **`MainPercobaan3.java`**
 ```java
-package Jobsheet4.KeretaApi;
+package KeretaApi;
 
 public class MainPercobaan3 {
     public static void main(String[] args) {
@@ -528,7 +528,7 @@ public class MainPercobaan3 {
 
 - **`MainPertanyaan.java`**
 ```java
-package Jobsheet4.KeretaApi;
+package KeretaApi;
 
 public class MainPertanyaan {
     public static void main(String[] args) {
@@ -598,7 +598,7 @@ Mengimplementasikan perpaduan relasi Composition dan Aggregation dengan konsep *
 ### 2. Kode Program
 - **`Penumpang.java`**
 ```java
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class Penumpang {
     private String ktp;
@@ -636,7 +636,7 @@ public class Penumpang {
 
 - **`Kursi.java`**
 ```java
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class Kursi {
     private String nomor;
@@ -675,7 +675,7 @@ public class Kursi {
 
 - **`Gerbong.java`**
 ```java
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class Gerbong {
     private String kode;
@@ -729,7 +729,7 @@ public class Gerbong {
 
 - **`MainPercobaan4.java`**
 ```java
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class MainPercobaan4 {
     public static void main(String[] args) {
@@ -743,7 +743,7 @@ public class MainPercobaan4 {
 
 - **`MainPertanyaan4.java` (Pengujian Pertanyaan 4 & 5)**
 ```java
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class MainPertanyaan4 {
     public static void main(String[] args) {
@@ -858,7 +858,7 @@ Mengimplementasikan relasi Composition murni di mana kelas `Mobil` (*whole*) men
 ### 2. Kode Program
 - **`Mesin.java`**
 ```java
-package Jobsheet4.MobilMesin;
+package MobilMesin;
 
 public class Mesin {
     private String tipe;
@@ -875,7 +875,7 @@ public class Mesin {
 
 - **`Mobil.java`**
 ```java
-package Jobsheet4.MobilMesin;
+package MobilMesin;
 
 public class Mobil {
     private String merek;
@@ -903,7 +903,7 @@ public class Mobil {
 
 - **`MainPercobaan5.java`**
 ```java
-package Jobsheet4.MobilMesin;
+package MobilMesin;
 
 public class MainPercobaan5 {
     public static void main(String[] args) {
@@ -958,7 +958,7 @@ Mengimplementasikan relasi Dependency (*uses-a*), di mana kelas `Laptop` memanfa
 ### 2. Kode Program
 - **`Printer.java`**
 ```java
-package Jobsheet4.LaptopPrinter;
+package LaptopPrinter;
 
 public class Printer {
     private String merk;
@@ -984,7 +984,7 @@ public class Printer {
 
 - **`Laptop.java`**
 ```java
-package Jobsheet4.LaptopPrinter;
+package LaptopPrinter;
 
 public class Laptop {
     private String merk;
@@ -1010,7 +1010,7 @@ public class Laptop {
 
 - **`MainPercobaan6.java`**
 ```java
-package Jobsheet4.LaptopPrinter;
+package LaptopPrinter;
 
 public class MainPercobaan6 {
     public static void main(String[] args) {

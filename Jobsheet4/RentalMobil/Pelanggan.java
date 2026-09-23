@@ -1,4 +1,4 @@
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class Pelanggan {
     private String nama;

@@ -1,4 +1,4 @@
-package Jobsheet4.LaptopPrinter;
+package LaptopPrinter;
 
 public class MainPercobaan6 {
     public static void main(String[] args) {

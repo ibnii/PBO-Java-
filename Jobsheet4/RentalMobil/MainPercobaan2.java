@@ -1,4 +1,4 @@
-package Jobsheet4.RentalMobil;
+package RentalMobil;
 
 public class MainPercobaan2 {
     public static void main(String[] args) {

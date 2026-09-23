@@ -1,4 +1,4 @@
-package Jobsheet4.GerbongKereta;
+package GerbongKereta;
 
 public class MainPertanyaan4 {
     public static void main(String[] args) {

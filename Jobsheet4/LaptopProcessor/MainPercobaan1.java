@@ -1,4 +1,4 @@
-package Jobsheet4.LaptopProcessor;
+package LaptopProcessor;
 
 public class MainPercobaan1 {
     public static void main(String[] args) {
