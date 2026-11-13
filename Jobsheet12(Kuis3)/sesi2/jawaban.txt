@@ -1,0 +1,9 @@
+1. Seorang rekan membuat FreeVehicle extends Vehicle untuk kendaraan promo gratis dan meng-override calculateCost() dengan 
+throw new UnsupportedOperationException(). Apa yang terjadi ketika getTotalCost() dipanggil pada loket yang berisi FreeVehicle? 
+Prinsip SOLID apa yang dilanggar, dan bagaimana perbaikan singkatnya?
+
+Jawaban:
+Ketika getTotalCost() dipanggil, program akan langsung error (crash) saat perulangan di loket memanggil method calculateCost() yang melempar exception. 
+Hal ini melanggar LSP, karena class anak (FreeVehicle) seharusnya bisa menggantikan class induknya (Vehicle) 
+tanpa merusak atau membuat program jadi error. Perbaikan singkatnya adalah mengubah method calculateCost() di FreeVehicle agar mengembalikan angka 0 
+bukan melempar exception, sehingga loket tetap bisa berjalan normal.
