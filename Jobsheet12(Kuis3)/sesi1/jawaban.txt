@@ -1,0 +1,10 @@
+1. Mengapa class induk semua kendaraan dibuat abstract class, bukan class biasa dan bukan interface?
+Jawaban:
+Class induk Vehicle dibuat sebagai abstract class karena Bus, Car, dan Motorcycle itu satu jenis sehingga mengimplementasikan method yang sama.
+
+2. Mengapa kemampuan dapat dipantau GPS dan dapat diasuransikan dibuat sebagai dua interface terpisah, bukan dimasukkan ke class induk atau digabung menjadi satu interface?
+Jawaban:
+Kedua kemampuan tersebut dipisahkan ke dalam dua interface berbeda karena tidak semua kendaraan punya kedua kemampuan tersebut, contoh Motor tidak punya keduanya, 
+dan Bus hanya punya GPS tanpa asuransi. Jika dimasukkan ke class induk, subclass yang tidak relevan akan terpaksa punya method yang tidak semestinya, 
+dan jika digabungkan menjadi satu interface, class tidak dapat memilih salah satu kemampuan saja.
+
